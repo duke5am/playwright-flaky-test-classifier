@@ -1,5 +1,4 @@
-# playwright-flake-triage
-
+# playwright-flaky-test-classifier
 Turn **"this test is flaky"** into **"it fails because of X, here is the fix."**
 
 Point it at Playwright JSON reports collected across several runs and it tells you
