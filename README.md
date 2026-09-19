@@ -72,4 +72,25 @@ purpose so you can watch the classifier work; nine `fixes/` guides with
 wrong-and-right code and why the common fix (a hard sleep, or `retries: 3` to hide
 it) is harmful; the CI setup and quarantine-policy guides; and 104 tests.
 
+<!-- RELATED:START -->
+
+## Related tools
+
+- **[actions-audit](https://github.com/duke5am/actions-audit)** — Audit GitHub Actions workflows for supply chain risk: unpinned actions, script injection, pull_request_target, missing permissions and timeouts.
+  *(if you were searching for "github actions security audit")*
+- **[dockerfile-hardening-lint](https://github.com/duke5am/dockerfile-hardening-lint)** — Static Dockerfile audit for hardening mistakes: root user, secrets in build args, latest tags, cache-busting layer order. No Docker daemon needed.
+  *(if you were searching for "dockerfile security check")*
+- **[eslint-architecture-rules](https://github.com/duke5am/eslint-architecture-rules)** — ESLint rules that fail CI when architecture boundaries erode: layer and feature imports, public entry points, hermetic tests, console in libraries.
+  *(if you were searching for "eslint architecture boundaries")*
+- **[feature-flag-codemods](https://github.com/duke5am/feature-flag-codemods)** — Remove feature flags that are fully rolled out, and refuse any flag that cannot be proven safe to delete. Byte-level proof untouched code stays untouched.
+  *(if you were searching for "remove stale feature flags")*
+- **[pr-review-lint](https://github.com/duke5am/pr-review-lint)** — First-pass pull request review driven by your own markdown rules, with a dry-run that shows exactly what it would post before it posts anything.
+  *(if you were searching for "automate pr review")*
+
+All 28 tools in this set, grouped by what they check: **[dev-tools-index](https://duke5am.github.io/dev-tools-index/)**
+
+If you arrived here searching for one of these, this is the tool: **playwright flaky tests** · **flaky test triage** · **playwright test report analysis** · **why are my e2e tests flaky**
+
+<!-- RELATED:END -->
+
 → More developer tooling like this: **[duke5am.gumroad.com](https://duke5am.gumroad.com)** <!-- GUMROAD-LINK -->
