@@ -93,4 +93,4 @@ If you arrived here searching for one of these, this is the tool: **playwright f
 
 <!-- RELATED:END -->
 
-→ More developer tooling like this: **[duke5am.gumroad.com](https://duke5am.gumroad.com)** <!-- GUMROAD-LINK -->
+→ **[Playwright Flaky Test Triage Kit](https://duke5am.gumroad.com/l/22-playwright-flaky-triage)** — $34 on Gumroad <!-- GUMROAD-LINK -->
